@@ -2,7 +2,7 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '00 03 * * *'
 
 name: project-build
 
