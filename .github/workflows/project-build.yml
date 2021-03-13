@@ -1,6 +1,10 @@
 on:
-  push:
   pull_request:
+    branches: ["**"]
+    paths: src/**
+  push:
+    branches: [ main ]
+    paths: src/**
   schedule:
     - cron: '00 03 * * *'
 
